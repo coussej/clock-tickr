@@ -1,6 +1,6 @@
 # ClockTickr :alarm_clock:
 
-A very simple ticker that emits `tick` events at a clock-sychronised, self-adjusting interval.
+A very simple ticker that emits `tick` events at a clock-synchronised, self-adjusting interval.
 
 [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
 
