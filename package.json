@@ -1,0 +1,25 @@
+{
+  "name": "clock-tickr",
+  "version": "0.1.0",
+  "description": "A ticker that emits tick events at a clock-sychronised, self-adjusting interval.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coussej/clock-tickr.git"
+  },
+  "author": "coussej",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coussej/clock-tickr/issues"
+  },
+  "homepage": "https://github.com/coussej/clock-tickr#readme",
+  "dependencies": {
+    "node-schedule": "^1.3.0"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}
