@@ -27,7 +27,9 @@ let tickr = new ClockTickr({ interval: 250 })
 
 tickr.on('tick', (tick) => {
   console.log(tick)
-  
+  if (Math.abs(tick.drift) > 20) {
+    console.log('Did you travel in time?')
+  }
 })
 
 tickr.start()
